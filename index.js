@@ -27,7 +27,7 @@ switch (key) {
       kick.play();
       break;
     case "s":
-      var snare = new Audio('sounds/snare.mp3');
+      var snare = new Audio('snare.mp3');
       snare.play();
       break;
       case "d":
@@ -39,11 +39,11 @@ switch (key) {
           tom2.play();
           break;
           case "k":
-            var tom3 = new Audio(tom-3.mp3');
+            var tom3 = new Audio('tom-3.mp3');
             tom3.play();
             break;
             case "l":
-              var tom4 = new Audio(tom-4.mp3');
+              var tom4 = new Audio('tom-4.mp3');
               tom4.play();
               break;
   default: console.log(key);
